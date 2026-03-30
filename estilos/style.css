@@ -97,11 +97,17 @@ div.video > iframe{
 .externo:hover{
     text-decoration: underline;
 }
+#link-baixar:hover{
+    background-color: rgb(0, 0, 0);
+    color: var(---cor-principal);
+    transition-delay: 0,8s;
+}
 #baixar{
     text-align: center;
     padding-left: 18px;
     padding-right: 18px;
     margin-bottom: 40px ;
+
     
     
 }
