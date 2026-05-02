@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<style>
+    body {
+        background-image: linear-gradient(to right, black, #03491a49);
+        color: var(---cor-principal);
+        font-family: "Orbitron", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+
+
+    }
+
+    form {
+        /*colocar borda em gradiente cor principal e 30D96B*/
+        background-color: #1fcc53;
+        box-shadow: 0 0 11px 0px var(---cor-principal);
+        color: #000000;
+        margin: auto;
+        text-align: center;
+        max-width: 250px;
+        height: 250px;
+        border: 1px outset rgb(0, 0, 0);
+        border-radius: 8px 6px 8px 6px;
+        padding: 50px;
+
+    }
+
+    ::placeholder {
+        color: rgb(0, 0, 0);
+    }
+
+    #esqueci {
+        color: var(---cor-principal);
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    #login,
+    #senha {
+        border-radius: 2px;
+        height: 10%;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: transparent;
+    }
+
+    #entrar {
+        background-color: #000000;
+        color: var(---cor-principal);
+        margin-top: 20px;
+        border-radius: 8px;
+        height: 12%;
+        width: 45%;
+    }
+</style>
+
+<body>
+
+
+    <form action="" method="post">
+
+        <h1>GTPjoga</h1>
+
+        <input type="text" id="login" name="username" required placeholder="Login:"> <br>
+
+
+        <br>
+        <input type="password" id="senha" name="password" required placeholder="Senha:"> <br>
+
+        <button type="submit" id="entrar">Login</button>
+
+        <p><a href="#" id="esqueci">Esqueci minha senha</a></p>
+
+
+    </form>
+    <style>
+
+    </style>
+</body>
+
+</html>

@@ -6,48 +6,60 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-:root{
-    ---paragrafo:'Heebo', sans-serif;
+
+
+
+:root {
+    ---paragrafo: 'Heebo', sans-serif;
     ---cor-principal: #30D96B;
 }
-body{
+
+body {
     margin: 0%;
+
     background-color: rgb(0, 0, 0);
-    background-attachment:scroll;
+    background-attachment: scroll;
     font-family: 'Courier New', Courier, monospace;
 }
-header{
-    background-color: black;    
+
+header {
+    background-color: black;
     height: 100px;
 
 }
-nav{
+
+nav {
     background-color: rgba(0, 0, 0, 0.795);
     padding-bottom: 11px;
     text-align: center;
     margin: 0%;
-    
-    
+
+
 }
-nav > a{
+
+nav>a {
     color: var(---cor-principal);
     text-decoration: none;
     font-family: 'Lexend', sans-serif;
     font-size: larger;
     padding: 8px;
-    
+
 }
-nav > a:hover{
-    
+
+nav>a:hover {
+
     background-color: rgb(89, 89, 89);
     border-radius: 8px;
-    
+
 }
-nav > img{
+
+nav>img {
     margin-bottom: 18px;
 }
-main{
+
+main {
     height: auto;
     max-width: 1005px;
     min-width: 320px;
@@ -58,22 +70,24 @@ main{
     border-radius: 5px;
 }
 
-p{
+p {
     text-indent: 12px;
     line-height: 30px;
     font-family: var(---paragrafo);
     margin-bottom: 18px;
-    
+
 }
-.titulo{
+
+.titulo {
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Lexend', sans-serif;
     margin-top: 25px;
     margin-bottom: 8px;
-    
+
 }
-div.video{
+
+div.video {
     background-color: #242424;
     margin: 0px -11px 30px -11px;
     padding: 20px;
@@ -81,37 +95,42 @@ div.video{
     position: relative;
 }
 
-div.video > iframe{
+div.video>iframe {
     position: absolute;
     top: 8%;
     left: 5%;
     width: 90%;
     height: 85%;
 }
-.externo{
+
+.externo {
     text-decoration: none;
     color: var(---cor-principal);
     font-weight: bold;
     text-shadow: 5px;
 }
-.externo:hover{
+
+.externo:hover {
     text-decoration: underline;
 }
-#link-baixar:hover{
+
+#link-baixar:hover {
     background-color: rgb(0, 0, 0);
     color: var(---cor-principal);
-    transition-delay: 0,8s;
+    transition-delay: 0, 8s;
 }
-#baixar{
+
+#baixar {
     text-align: center;
     padding-left: 18px;
     padding-right: 18px;
-    margin-bottom: 40px ;
+    margin-bottom: 40px;
 
-    
-    
+
+
 }
-#link-baixar{
+
+#link-baixar {
     padding: 10px;
     padding-left: 38px;
     padding-right: 38px;
@@ -124,34 +143,39 @@ div.video > iframe{
     width: 100PX;
     height: auto;
     font-family: 'Lexend', sans-serif;
-    
+
 }
-ol{
+
+ol {
     text-align: left;
 }
-ul, li{
+
+ul,
+li {
     font-family: 'Lexend', sans-serif;
     font-weight: bold;
-} 
-
- 
-
-#logo{
-    text-align: left;
-    
 }
+
+
+
+#logo {
+    text-align: left;
+
+}
+
 .logo-game {
     display: flex;
     flex-direction: column;
 }
-#nome{
+
+#nome {
     color: var(---cor-principal);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
- 
 
-footer{
+}
+
+
+footer {
     background-color: rgb(0, 0, 0);
     margin: 0%;
     padding: 0%;
@@ -160,17 +184,20 @@ footer{
     margin: auto;
     text-align: center;
 }
-footer > a{
+
+footer>a {
     color: var(---cor-principal);
     text-align: center;
     text-decoration: none;
-    
+
 }
-.logo{
+
+.logo {
     margin: auto;
     display: block;
 }
-.inicio{
+
+.inicio {
     display: flex;
     text-align: left;
 }
